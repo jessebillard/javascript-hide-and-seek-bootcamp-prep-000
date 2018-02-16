@@ -16,10 +16,9 @@ function deepestChild() {
   return deepC;
 }
 
-//funk4 fershure gon be a doozy
+//funk4 like fershure tho
 function increaseRankBy(n) {
   const rankedLists = document.querySelectorAll('.ranked-list');
-  
   for (let i = 0; i < rankedLists.length; i++) {
      rankedLists[i].innerHTML = (i + n)
   } return rankedLists;
