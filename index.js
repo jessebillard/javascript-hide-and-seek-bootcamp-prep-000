@@ -18,7 +18,7 @@ function deepestChild() {
 
 //funk4 fershure gon be a doozy
 function increaseRankBy(n) {
-  const rankedLists = document.querySelector().querySelectorAll('.ranked-list li');
+  const rankedLists = document.querySelectorAll('.ranked-list li');
   
   for (let i = 0; i < rankedLists.length; i++) {
      rankedLists[i].innerHTML = parseInt((i + n), 10).toString()
